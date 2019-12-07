@@ -2,6 +2,24 @@
 
 This repository is proof of concept that implement proof of work system in PHP, javascript, and web assembly.
 
+## Screenshots
+
+### Server web deny content for customer request without submit proof of work solution
+
+![Server web deny content for customer request without submit proof of work solution](screenshots/0.png?raw=true "/pow-walled-content.php")
+
+### Customer solve proof of work at 207 hash/sec
+
+![Customer solve proof of work at 207 hash/sec](screenshots/1.png?raw=true "/solve-pow.php")
+
+### Customer submit proof of work solution and server web accept
+
+[Customer submit proof of work solution and server web accept](screenshots/2.png?raw=true "/solve-pow.php")
+
+### Server web show content for customer with submit proof of work solution
+
+![Server web show content for customer with submit proof of work solution](screenshots/3.png?raw=true "/pow-walled-content.php")
+
 ## Getting Started
 
 Drop the files contained in this repository in server (example /var/www) and configure your server web with new virtual host with document root is the `htdocs` directory of this repository. It notice that want `settings.php` be locate outside document root.
