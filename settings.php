@@ -1,0 +1,3 @@
+<?php
+$POW_DEFAULT_DIFFICULTY = 5;
+?>
