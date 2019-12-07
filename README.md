@@ -8,9 +8,9 @@ This repository is proof of concept that implement proof of work system in PHP, 
 
 ![Server web deny content for customer request without submit proof of work solution](screenshots/0.jpg?raw=true "/pow-walled-content.php")
 
-### Customer solve proof of work at 207 hash/sec
+### Customer solve proof of work at 43480 hash/sec
 
-![Customer solve proof of work at 207 hash/sec](screenshots/1.jpg?raw=true "/solve-pow.php")
+![Customer solve proof of work at 43480 hash/sec](screenshots/1.jpg?raw=true "/solve-pow.php")
 
 ### Customer submit proof of work solution and server web accept
 
@@ -49,7 +49,7 @@ Example [htdocs/pow-walled-content.php](htdocs/pow-walled-content.php)
 
 ## Performance
 
-This code execute 100-400x higher hash/sec compare pure javascript https://github.com/shenzhu2/pow-php-wasm-demo
+This code execute 100-400x higher hash/sec compare pure javascript https://github.com/shenzhu2/pow-php-javascript-demo
 
 This code execute 40% slower compare pure C. Remove I/O UI update (update_hashrate()) is more equal for C but bad UX.
 
