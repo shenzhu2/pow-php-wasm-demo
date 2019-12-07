@@ -14,7 +14,7 @@ This repository is proof of concept that implement proof of work system in PHP, 
 
 ### Customer submit proof of work solution and server web accept
 
-[Customer submit proof of work solution and server web accept](screenshots/2.jpg?raw=true "/solve-pow.php")
+![Customer submit proof of work solution and server web accept](screenshots/2.jpg?raw=true "/solve-pow.php")
 
 ### Server web show content for customer with submit proof of work solution
 
